@@ -1,0 +1,7 @@
+<ion-header><ion-toolbar><ion-title>Totem do Cliente</ion-title></ion-toolbar></ion-header>
+<ion-content class="ion-padding">
+  <ion-button (click)="emitir('SP')">Senha Prioritária</ion-button>
+  <ion-button (click)="emitir('SG')">Senha Geral</ion-button>
+  <ion-button (click)="emitir('SE')">Exames</ion-button>
+  <div *ngIf="senha">Sua senha: <strong>{{ senha }}</strong></div>
+</ion-content>

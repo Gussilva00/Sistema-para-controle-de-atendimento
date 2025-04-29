@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Totem de Senhas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button expand="block" color="primary" (click)="emitirSenha('SP')">
+    Emitir Senha Prioritária (SP)
+  </ion-button>
+
+  <ion-button expand="block" color="secondary" (click)="emitirSenha('SG')">
+    Emitir Senha Geral (SG)
+  </ion-button>
+
+  <ion-button expand="block" color="tertiary" (click)="emitirSenha('SE')">
+    Emitir Senha de Exames (SE)
+  </ion-button>
+</ion-content>
